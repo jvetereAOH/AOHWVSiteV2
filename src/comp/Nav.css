@@ -1,0 +1,26 @@
+
+.AOHNav {
+    height: 100px;
+    background-color: black !important;
+    border-bottom: 2px solid #5DF000 !important;
+    
+}
+.nav-image {
+    height: 40%; 
+    width:  40%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right: 50%;
+}
+.nav-link{
+    height: auto; 
+    width:  auto;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+}
+.nav-drop {
+    margin-top: auto;
+    margin-bottom: 12%;
+}
