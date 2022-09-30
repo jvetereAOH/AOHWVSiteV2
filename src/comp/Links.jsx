@@ -1,16 +1,24 @@
 import Nav from 'react-bootstrap/Nav';
-import Dropdown from './Dropdown';
+import { NavDropdown } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 function Links() {
 
     return (
-    <Nav className="justify-content-end">
-        <Nav.Link href="#home">HOME</Nav.Link>
-        <Nav.Link href="#features">METHODOLOGY</Nav.Link>
-        <Nav.Link href="#solutions">SOLUTION</Nav.Link>
-        <Nav.Link href="#pricing">STORE</Nav.Link>
-        <Nav.Link href="#pricing">BLOG</Nav.Link>
-        <Nav.Link href="#pricing">RESOURCES</Nav.Link>
+    <Nav className="justify-content-end" style={{"padding-top":"5%"}}>
+        <Nav.Link >
+            <Link to="/home">HOME</Link>
+        </Nav.Link>
+        <Nav.Link>
+            <Link to="/method">METHODOLOGY</Link>
+        </Nav.Link>
+        <NavDropdown variant="dark" title="SOLUTIONS" id="basic-nav-dropdown">
+            <NavDropdown.Item><Link to="/pro_services" style={{'color':'black'}}>Professional Services</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/managed_services" style={{'color':'black'}}>Managed Services</Link></NavDropdown.Item>
+        </NavDropdown>
+        <Nav.Link><Link to="/store">STORE</Link></Nav.Link>
+        <Nav.Link><Link to="/blog">BLOG</Link></Nav.Link>
+        <Nav.Link><Link to="/resources">RESOURCES</Link></Nav.Link>
     </Nav>
   );
 }

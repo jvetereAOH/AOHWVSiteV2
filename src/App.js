@@ -1,13 +1,12 @@
 import './App.scss';
-import AOHNav from './comp/AOHNav';
-import Dropdown from './comp/Dropdown';
+import RouterComp from './Routes/Router';
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <AOHNav/>
-      </header>
-      <Dropdown/>
+      
+      <RouterComp/>
     </div>
   );
 }
