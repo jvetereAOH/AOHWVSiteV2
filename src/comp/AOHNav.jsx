@@ -5,6 +5,10 @@ import Links from './Links';
 import './Nav.css';
 import logo from './../images/Placeholderlogo.png';
 
+/**
+ * Render basic bootstrap navbar
+ * @returns Navbar
+ */
 function AOHNav() {
 
     return (

@@ -13,9 +13,13 @@ import ManagedServices from '../navigable/ManagedServices';
 import Method from '../navigable/Method';
 import ProfessionalServices from '../navigable/ProfessionalServices';
 import Resources from '../navigable/Resources';
-import Store from '../navigable/Store';
+import Store from '../navigable/store/Store';
+import MDfooter from '../comp/MDfooter';
 
-
+/**
+ * Router Component
+ * @returns Router embedded in Nav bar
+ */
 function RouterComp() {
     return (
         <Router>
@@ -32,6 +36,9 @@ function RouterComp() {
                 <Route exact path="/blog" component={Blog}/>
                 <Route exact path="/resources" component={Resources}/>
             </Routes>
+            <footer>
+                {/* <MDfooter/> */}
+            </footer>
         </Router>
     )
 }

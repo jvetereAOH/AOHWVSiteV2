@@ -2,6 +2,10 @@ import Nav from 'react-bootstrap/Nav';
 import { NavDropdown } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
+/**
+ * Links in seperate because Dropdown is a pain in the ass
+ * @returns Links element
+ */
 function Links() {
 
     return (

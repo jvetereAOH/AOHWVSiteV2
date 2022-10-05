@@ -4,6 +4,10 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 
+/**
+ * Build primary element through router comp
+ * @returns Primary Element
+ */
 function App() {
   return (
     <div className="App">

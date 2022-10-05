@@ -1,4 +1,7 @@
-
+/*
+    Nav color and placement
+    IDK if height will work longterm
+*/
 .AOHNav {
     height: 120px;
     background-color: black !important;
@@ -6,6 +9,9 @@
     
 }
 
+/*
+    Auto adjust height of image in nav bar
+*/
 .nav-image {
     height: 40%; 
     width:  40%;
@@ -13,19 +19,31 @@
     margin-bottom: 20%;
     margin-right: 50%;
 }
+/*
+    Nav link color and font
+*/
 .nav-link{
 
     font-family: 'proxima-nova', sans-serif;
     color: white !important;
 }
+/*
+    Nav drop down because it is a pain
+*/
 .nav-drop {
     margin-top: auto;
     margin-bottom: 12%;
 }
+/*
+    Remove Ugly text decoration and color on links
+*/
 a {
     color: #FFF;
     text-decoration: none;
-  }
+}
+/*
+    Attempt to make text glow green when hover
+*/
 a:hover {
     text-shadow: 0 0 3px #D8FF97;
 }
