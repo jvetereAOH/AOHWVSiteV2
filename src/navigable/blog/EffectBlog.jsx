@@ -9,30 +9,46 @@ import Col from 'react-bootstrap/Col';
 import './blogs.css'
 
 function EffectBlog() {
-    const [isLoading, setLoading] = useState(true);
-    const [posts, setPosts] = useState([]);
+    // const [isLoading, setLoading] = useState(true);
+    // const [posts, setPosts] = useState([]);
 
-    useEffect(() => {
-        axios.get("http://localhost:8080/blogs")
-        .then((response) => {
-            setPosts(response.data);
-            setLoading(false);
-        })
-    }, []);
+    // useEffect(() => {
+    //     axios.get("http://localhost:8080/blogs")
+    //     .then((response) => {
+    //         setPosts(response.data);
+    //         setLoading(false);
+    //     })
+    // }, []);
 
-    if (isLoading) {
-        return (
-            <div>
-                <h1>Loading...</h1>
-            </div>
-        )
-    }
-
-    console.log(posts)
+    // if (isLoading) {
+    //     return (
+    //         <div>
+    //             <h1>Loading...</h1>
+    //         </div>
+    //     )
+    // }
+    
     return (
         <Container className="blogs">
             <Row>
-                {posts.map((post, i) => BlogCard(post))}
+                <Col xs>
+                <BlogCard 
+                    title = 'SMS Phishing Attacks affecting Okta IAM Solution'
+                    blurb = 'There has been a slew of SMS phishing attacks recently & SMS/OTP is'
+                    content = 'oktaphising'/>
+                </Col>
+                <Col xs>
+                <BlogCard
+                        title = 'Push the boundary of IGA & HRMS'
+                        blurb = 'In HRMS driven provision workflow, HRMS acts the “authoritative source or trust source” for FTE to...'
+                        content = 'pushingtheboundry'/>
+                </Col>
+                <Col xs>
+                <BlogCard 
+                    title = 'Cyber Security Mesh Architecture (CSMA)'
+                    blurb = 'Gartner created this approach that makes sense. Putting this into our services...'
+                    content = 'cybersecurity-mesh-architecture'/>
+                </Col>
             </Row>
         </Container>
     )

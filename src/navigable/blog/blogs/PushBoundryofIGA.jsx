@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import { ExternalLink } from "react-external-link";
-
+import '../blogs.css'
 export default function PushBoundryofIGA() {
     return (
         <div className="Blog">

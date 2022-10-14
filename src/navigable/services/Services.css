@@ -1,0 +1,29 @@
+.services {
+    font-family: 'proxima-nova', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'proxima-nova', sans-serif;
+}
+.services-compare {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: lightgrey;
+    gap: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}

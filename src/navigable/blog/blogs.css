@@ -20,17 +20,26 @@
 .cardoutline{
     outline: 1px solid #D8FF97;
     background-color: black;
+    height: 25%
 }
 .blogbuttons {
+    width: 100%;
+    height: auto;
     font-family: 'proxima-nova', sans-serif;
-    background-color: slategray;
+    background-color: slategray !important;
+    outline: 2px solid black !important;
 }
 .blogbuttons:hover {
-    outline: 1px solid #D8FF97;
-    background-color: #D8FF97;
+    outline: 1px solid #D8FF97 !important;
 }
 .blogcontent {
     font-family: 'proxima-nova', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 .bloglink {
     color: black;
@@ -42,7 +51,12 @@
 .blogtittle {
     padding-bottom: 5%;
 }
-#text {
-    text-align: center;
-    
+.img-mesh {
+    width: 45%;
+    height: 45%;
+    margin-bottom: 10px;
+
+}
+a {
+    font-family: 'proxima-nova', sans-serif;
 }

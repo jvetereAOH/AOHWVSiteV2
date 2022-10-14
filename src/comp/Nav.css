@@ -34,6 +34,10 @@
     margin-top: auto;
     margin-bottom: 12%;
 }
+.nav-drop:hover {
+	color: #D8FF97;
+	transition: 200ms ease-in;
+}
 /*
     Remove Ugly text decoration and color on links
 */
@@ -45,5 +49,6 @@ a {
     Attempt to make text glow green when hover
 */
 a:hover {
-    text-shadow: 0 0 3px #D8FF97;
+	color: #D8FF97;
+	transition: 200ms ease-in;
 }

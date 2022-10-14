@@ -1,0 +1,11 @@
+.homepage {
+    padding-top: 2.5%;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.home-img {
+    max-width: 25%;
+    max-height: 25%;
+    margin: 0 auto;
+    display: block;
+}
