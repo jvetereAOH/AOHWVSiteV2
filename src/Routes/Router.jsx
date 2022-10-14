@@ -21,6 +21,7 @@ import Resources            from '../navigable/resources/Resources';
 import OktaPhishing from '../navigable/blog/blogs/oktaphishing'
 import PushBoundryofIGA from '../navigable/blog/blogs/PushBoundryofIGA'
 import CSMA from '../navigable/blog/blogs/CSMA';
+import { Container } from 'react-bootstrap';
 /**
  * Router Component
  * @returns Router embedded in Nav bar
@@ -28,6 +29,7 @@ import CSMA from '../navigable/blog/blogs/CSMA';
 function RouterComp() {
     return (
         <Router>
+            <Container style={{display: "flex", flexDirection: "columns"}}>
             <header className="App-header">
             <AOHNav/>
             </header>
@@ -47,6 +49,7 @@ function RouterComp() {
             </Routes>
 
             <BootFooter/>
+            </Container>
         </Router>
     )
 }
