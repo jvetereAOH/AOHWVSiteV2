@@ -1,0 +1,13 @@
+.foot-box {
+padding: 20px 80px;
+background: black;
+position:relative;
+margin-top: 5%;
+border-top: 4px solid #D8FF97 !important;
+height: 100%;
+font-family: 'proxima-nova', sans-serif;
+
+@media (max-width: 1000px) {
+	padding: 70px 30px;
+}
+}

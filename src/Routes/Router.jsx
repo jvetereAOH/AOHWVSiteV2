@@ -8,7 +8,7 @@ import {
   } from "react-router-dom";
 import AOHNav   from '../comp/AOHNav';
 import Footer from '../comp/footer';
-
+import BootFooter from '../comp/BootFooter';
 import Home     from '../navigable/home/Home';
 import EffectBlog     from '../navigable/blog/EffectBlog';
 import Store    from '../navigable/store/Store';
@@ -45,9 +45,8 @@ function RouterComp() {
                 <Route exact path="/blog/pushingtheboundry" element={<PushBoundryofIGA/>}/>
                 <Route exact path="/blog/cybersecurity-mesh-architecture" element={<CSMA/>}/>
             </Routes>
-            <footer>
-            <Footer/>
-            </footer>
+
+            <BootFooter/>
         </Router>
     )
 }

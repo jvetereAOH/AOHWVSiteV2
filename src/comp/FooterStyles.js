@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Box = styled.div`
 padding: 20px 80px;
 background: black;
-position:relative;
+
 margin-top: 5%;
 border-top: 4px solid #D8FF97 !important;
 height: 100%;
@@ -17,34 +17,29 @@ font-family: 'proxima-nova', sans-serif;
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	max-width: 1000px;
+	max-width: 100%;
 	/* background: red; */
 `
 
 export const Column = styled.div`
 display: flex;
 flex-direction: column;
-text-align: left;
+text-align: center;
 margin-left: 60px;
+align-self: center;
 `;
 
 export const Row = styled.div`
 display: grid;
-grid-template-columns: repeat(auto-fill,
-						minmax(185px, 1fr));
+
 grid-gap: 20px;
 
-@media (max-width: 1000px) {
-	grid-template-columns: repeat(auto-fill,
-						minmax(200px, 1fr));
-}
 `;
 
 export const FooterLink = styled.a`
 color: #fff;
 margin-bottom: 20px;
-font-size: 18px;
+font-size: 12px;
 text-decoration: none;
 
 &:hover {
@@ -54,7 +49,7 @@ text-decoration: none;
 `;
 
 export const Heading = styled.p`
-font-size: 24px;
+font-size: 18x;
 color: #fff;
 margin-bottom: 40px;
 font-weight: bold;
