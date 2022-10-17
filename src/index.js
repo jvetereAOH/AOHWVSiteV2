@@ -7,6 +7,6 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App style={{width: "100%"}}/>
+    <App style={{width: "100%", maxHeight: "100%"}}/>
   </React.StrictMode>
 );

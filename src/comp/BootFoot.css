@@ -6,7 +6,8 @@
     font-family: 'proxima-nova', sans-serif;
     font-size: small;
     padding-top: 15px;
-    justify-content: flex-end;
+    flex-grow: 1; 
+    overflow-y: "auto";
     height: 200px;
     max-width: 100%;
     width: 100%;
