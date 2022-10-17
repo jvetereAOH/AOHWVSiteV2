@@ -29,10 +29,8 @@ import { Container } from 'react-bootstrap';
 function RouterComp() {
     return (
         <Router>
-            <Container style={{display: "flex", flexDirection: "columns"}}>
-            <header className="App-header">
+            <Container style={{display: "flex", flexDirection: "column", maxWidth: "100%", width: "100%", padding: "0", alignItems: "center", margin: "0", maxHeight: "100%"}}>
             <AOHNav/>
-            </header>
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path="/home" element={<Home/>}/>
@@ -48,8 +46,9 @@ function RouterComp() {
                 <Route exact path="/blog/cybersecurity-mesh-architecture" element={<CSMA/>}/>
             </Routes>
 
-            <BootFooter/>
+            <BootFooter style ={{alignSelf: "flex-end"}}/>
             </Container>
+            
         </Router>
     )
 }

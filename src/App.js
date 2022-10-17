@@ -8,9 +8,8 @@ import RouterComp from './Routes/Router';
  */
 function App() {
   return (
-    <div id="root" className="App">
       <RouterComp/>
-    </div>
+
   );
 }
 
