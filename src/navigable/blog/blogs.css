@@ -26,12 +26,8 @@
     width: 100%;
     height: auto;
     font-family: 'proxima-nova', sans-serif;
-    background-color: slategray !important;
-    outline: 2px solid black !important;
 }
-.blogbuttons:hover {
-    outline: 1px solid #D8FF97 !important;
-}
+
 .blogcontent {
     font-family: 'proxima-nova', sans-serif;
     display: flex;

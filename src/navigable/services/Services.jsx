@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Button} from 'react-bootstrap';
 import ServicesImage from './Services.png';
 import { Icon, List } from 'semantic-ui-react';
+import { Link } from "react-router-dom";
 import ServiceCarocel from './ServicesCarocel';
 import './Services.css';
 export default function Services() {
@@ -29,6 +30,14 @@ export default function Services() {
     return (
         <Container className="services">
             <ServiceCarocel/>
+            <Container className="detail-buttons">
+                <Link to = "managed_services">
+                    <Button>Managed Services</Button>
+                </Link>
+                <Link to = "professional_services">
+                    <Button>Professional Services</Button>
+                </Link>
+            </Container>
             {/* <img className="services-icon" src={ServicesImage} alt="Lay out of different services offered by AOH WV"/>
             <Container className="services-compare">
                 <List className='list'>

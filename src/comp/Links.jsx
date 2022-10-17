@@ -16,13 +16,16 @@ function Links() {
         {/* <Nav.Link>
             <Link to="/method">METHODOLOGY</Link>
         </Nav.Link> */}
-        <Nav.Link>
+        {/* <Nav.Link>
             <Link to="/services">SERVICES</Link>
-        </Nav.Link>
-        {/* <NavDropdown variant="dark" title="SOLUTIONS" id="basic-nav-dropdown">
+        </Nav.Link> */}
+        <NavDropdown variant="dark" title="SERVICES" id="basic-nav-dropdown">
+            <NavDropdown.Item>
+                <Link to="/overview">SERVICE</Link>
+            </NavDropdown.Item>
             <NavDropdown.Item><Link to="/pro_services" style={{'color':'black'}}>Professional Services</Link></NavDropdown.Item>
             <NavDropdown.Item><Link to="/managed_services" style={{'color':'black'}}>Managed Services</Link></NavDropdown.Item>
-        </NavDropdown> */}
+        </NavDropdown>
         {/* <Nav.Link><Link to="/store">STORE</Link></Nav.Link> */}
         <Nav.Link><Link to="/blog">BLOG</Link></Nav.Link>
         <Nav.Link><Link to="/resources">RESOURCES</Link></Nav.Link>

@@ -13,8 +13,8 @@ import Home     from '../navigable/home/Home';
 import EffectBlog     from '../navigable/blog/EffectBlog';
 import Store    from '../navigable/store/Store';
 import Method   from '../navigable/methodology/Method';
-// import ManagedServices      from '../navigable/services/ManagedServices';
-// import ProfessionalServices from '../navigable/services/ProfessionalServices';
+import ManagedServices      from '../navigable/services/managedservices/ManagedServices';
+import ProfessionalServices from '../navigable/services/ProfessionalServices';
 import Services from '../navigable/services/Services';
 import Resources            from '../navigable/resources/Resources';
 
@@ -35,9 +35,9 @@ function RouterComp() {
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path="/home" element={<Home/>}/>
                 {/* <Route exact path="/method" component={Method}/> */}
-                {/* <Route exact path="/pro_services" component={ProfessionalServices}/>  
-                <Route exact path="/manged_services" component={ManagedServices}/> */}
-                <Route exact path="/services" element={<Services/>}/>
+                <Route exact path="/pro_services" element={<ProfessionalServices/>}/>  
+                <Route exact path="/managed_services" element={<ManagedServices/>}/>
+                <Route exact path="/overview" element={<Services/>}/>
                 {/* <Route exact path="/store" component={Store}/> */}
                 <Route exact path="/blog" element={<EffectBlog/>}/>
                 <Route exact path="/resources" element={<Resources/>}/>

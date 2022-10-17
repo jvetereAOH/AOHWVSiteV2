@@ -12,15 +12,15 @@ export default function BootFooter () {
         <Row className="foot-row">
             <Col className = "foot-col">
                 <h3 className="heading">ABOUT US</h3>
-                <Link to = "/home">HOME</Link>
+                <Link to = "/managed_services">HOME</Link>
                 <br/>
                 <Link to = "/blog">BLOG</Link>
             </Col>
             <Col className = "foot-col">
-                <h3 className="heading">ABOUT US</h3>
-                <Link to = "/home">HOME</Link>
+                <h3 className="heading">SERVICES</h3>
+                <Link to = "/home">MANAGED SERVICES</Link>
                 <br/>
-                <Link to = "/blog">BLOG</Link>
+                <Link to = "/blog">PROFESSIONAL SERVICES</Link>
             </Col>
             <Col className = "foot-col">
                 <h3 className="heading">ABOUT US</h3>
