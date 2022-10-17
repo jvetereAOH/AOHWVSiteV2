@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import ServicesImage from './Services.png';
 import { Icon, List } from 'semantic-ui-react';
-
+import ServiceCarocel from './ServicesCarocel';
 import './Services.css';
 export default function Services() {
     const professional = [
@@ -28,7 +28,8 @@ export default function Services() {
 
     return (
         <Container className="services">
-            <img className="services-icon" src={ServicesImage} alt="Lay out of different services offered by AOH WV"/>
+            <ServiceCarocel/>
+            {/* <img className="services-icon" src={ServicesImage} alt="Lay out of different services offered by AOH WV"/>
             <Container className="services-compare">
                 <List className='list'>
                     {professional.map((service, index) => 
@@ -46,7 +47,7 @@ export default function Services() {
                     </List.Item>
                     )}
                 </List>
-            </Container>
+            </Container> */}
         </Container>
     )
 }
