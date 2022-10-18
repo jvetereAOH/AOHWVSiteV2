@@ -13,7 +13,7 @@ function ContactUs() {
         <Container>
             <h1>Contact Us</h1>
             <Row>
-                <Col>
+                <Col style = {{margin: "100px"}}>
                     <h3>Follow Us At</h3>
                     <ExternalLink style = {{color: "black"}} href = "https://www.linkedin.com/company/atomic-orbital-hydrogen-wave-vector/?viewAsMember=true">
                         <Icon name = "linkedin" style = {{color: "black"}}/> Linkedin

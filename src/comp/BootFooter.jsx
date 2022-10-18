@@ -21,7 +21,7 @@ export default function BootFooter () {
             </Col>
             <Col className = "foot-col">
                 <h3 className="heading">SERVICES</h3>
-                <Link to = "/overview/managed_services">MANAGED SERVICES</Link>
+                <Link to = "/overview">OVERVIEW</Link>
                 <br/>
                 <Link to = "/overview/professional_services">PROFESSIONAL SERVICES</Link>
             </Col>

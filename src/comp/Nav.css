@@ -20,15 +20,14 @@
 .nav-image {
     height: 100%; 
     width:  100%;
-    margin-top: 0%;
-    margin-bottom: 20%;
-    margin-right: 45%;
+    min-width: 75%;
+    min-height: 75%;
 }
 /*
     Nav link color and font
 */
 .nav-link{
-
+    font-size: smaller;
     font-family: 'proxima-nova', sans-serif;
     color: white !important;
 }
