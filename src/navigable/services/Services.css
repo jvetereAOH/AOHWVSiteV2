@@ -6,7 +6,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    font-family: 'proxima-nova', sans-serif;
+    
     border: rounded;
 }
 .services-compare {
@@ -16,7 +16,8 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: lightgrey;
+    background-color: black;
+    
     gap: 25%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -29,9 +30,13 @@
     height: 100%;
     width: 100%;
     gap: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-family: 'proxima-nova', sans-serif;
 }
-
+.detailbut {
+    background-color: black;
+}
 .red {
     color: red;
 }
