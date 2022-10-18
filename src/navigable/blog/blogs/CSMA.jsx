@@ -12,9 +12,9 @@ export default function CSMA() {
     return (
     <div className="Blog">
         <Container className="blogcontent">
-            <h1 className="blogtitle">Cyber Security Mesh Architecture (CSMA)</h1>
-
-            <p >
+            <h2 className="blogtitle">Cyber Security Mesh Architecture (CSMA)</h2>
+            <br />
+            <p className="text-muted graphbound">
             Gartner created this approach that makes sense.  
             Putting this into our services cycle. 
             Starting with company assets, represented by best of breed point products. 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import robertAndLaura from './robertandlaura.jpg';
+import FootLogo from './FootLogo.jpg';
 import "./home.css";
 /**
  * Render home page
@@ -34,7 +34,7 @@ export default function Home() {
         Good service matters.  We provide that.  
         </p>
 
-        <img className="home-img" src={robertAndLaura} alt="Image of our founding paratners" />
+        <img className="home-img" src={FootLogo} alt="Image of our founding paratners" />
     </Container>
     )
 }

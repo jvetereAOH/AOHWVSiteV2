@@ -5,8 +5,8 @@ import React from 'react';
  * Resources Page
  * @Todo: Outline
  */
-function Resources() {
+function jobListings() {
 
 }
 
-export default Resources;
+export default jobListings;
