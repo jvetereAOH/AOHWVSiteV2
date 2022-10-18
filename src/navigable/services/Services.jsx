@@ -32,10 +32,10 @@ export default function Services() {
             <ServiceCarocel/>
             <Container className="detail-buttons">
                 <Link to = "managed_services">
-                    <Button>Managed Services</Button>
+                    <Button className='detailbut'>Managed Services</Button>
                 </Link>
                 <Link to = "professional_services">
-                    <Button>Professional Services</Button>
+                    <Button className='detailbut'>Professional Services</Button>
                 </Link>
             </Container>
             {/* <img className="services-icon" src={ServicesImage} alt="Lay out of different services offered by AOH WV"/>

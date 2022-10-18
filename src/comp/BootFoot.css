@@ -8,7 +8,7 @@
     padding-top: 15px;
     flex-grow: 1; 
     overflow-y: "auto";
-    height: 200px;
+    height: 250px;
     max-width: 100%;
     width: 100%;
     padding-top: 20px;
@@ -26,6 +26,12 @@
     display: flex;
     flex-direction: row !important;
     
+}
+.foot-img {
+    width: 10%;
+    height: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 .heading {
     font-size: small;

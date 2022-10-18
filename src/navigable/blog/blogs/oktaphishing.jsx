@@ -8,7 +8,7 @@ function OktaPhishing() {
         <Container className="blogcontent">
             <h1 className="blogtitle">SMS Phishing Attacks affecting Okta IAM Solution</h1>
         
-            <p>
+            <p className="graphbound">
                 There has been a slew of SMS phishing attacks recently 
                 & SMS/OTP is most prevailing token delivery mechanism as 
                 second factor authentication but it is also a weak security measure.
@@ -19,7 +19,7 @@ function OktaPhishing() {
             <p>
                 What we at AOH recommend along with our Partner Okta: 
             </p>
-            <ol>
+            <ol className="graphbound">
                 <li>To mitigate the first factor, use a personalized message or insert image at Tenant or Org Level. Applying at the account level is preferable.</li>
                 <li>To mitigate second factor, use WebAuthn.</li>
             </ol>

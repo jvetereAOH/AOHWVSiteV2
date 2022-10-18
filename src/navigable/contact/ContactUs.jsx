@@ -4,8 +4,8 @@ import React from 'react';
  * Methodology Page
  * @Todo: Outline
  */
-function Method() {
+function ContactUs() {
 
 }
 
-export default Method;
+export default ContactUs;

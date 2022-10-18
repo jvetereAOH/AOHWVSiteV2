@@ -36,6 +36,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    gap: 12px;
 }
 .bloglink {
     color: black;
@@ -45,13 +46,20 @@
     padding-top: 5%;
 }
 .blogtittle {
-    padding-bottom: 5%;
+    padding-bottom: 10px;
 }
 .img-mesh {
     width: 45%;
     height: 45%;
     margin-bottom: 10px;
 
+}
+.graphbound {
+    display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 a {
     font-family: 'proxima-nova', sans-serif;

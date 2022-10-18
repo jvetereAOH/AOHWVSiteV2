@@ -13,6 +13,10 @@ function ManagedServices() {
         {detail: "Temp worker or contractor management"},
         {detail: "Conversation & transfers"}
     ]
+    const application = [
+        {detail: "Application onboarding"},
+        {detail:"Application identity profile managemet"}
+    ]
     return (
     <Container className="managed-services">
         <Container className="item">
@@ -24,11 +28,22 @@ function ManagedServices() {
                     <List.Content>{service.detail}</List.Content>
                     </List.Item>
                     )}
-                </List>
+        </List>
+        </Container>
 
+        <Container className = "item">
+        <h2>Aplication Lifecyle Management</h2>
+        <List className='list'>
+                    {application.map((service, index) => 
+                    <List.Item>
+                    <Icon name="check" className='green'/>
+                    <List.Content>{service.detail}</List.Content>
+                    </List.Item>
+                    )}
+        </List>
         </Container>
     </Container>
-    )
+  )
 }
 
 export default ManagedServices;
