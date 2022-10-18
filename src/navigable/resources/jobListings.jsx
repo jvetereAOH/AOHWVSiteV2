@@ -6,7 +6,7 @@ import React from 'react';
  * @Todo: Outline
  */
 function jobListings() {
-
+    
 }
 
 export default jobListings;

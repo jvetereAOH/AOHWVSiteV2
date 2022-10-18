@@ -14,6 +14,9 @@ function Links() {
         <Nav.Link >
             <Link to="/home">HOME</Link>
         </Nav.Link>
+        <Nav.Link >
+            <Link to="/about-us">ABOUT US</Link>
+        </Nav.Link>
         {/* <Nav.Link>
             <Link to="/method">METHODOLOGY</Link>
         </Nav.Link> */}
@@ -22,14 +25,13 @@ function Links() {
         </Nav.Link> */}
         <NavDropdown variant="dark" title="SERVICES" id="basic-nav-dropdown">
             <NavDropdown.Item>
-                <Link to="/overview" style={{'color':'black'}}>SERVICE</Link>
+                <Link to="/overview" style={{'color':'black'}}>OVERVIEW</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item><Link to="/pro_services" style={{'color':'black'}}>PROFESSIONAL SERVICES</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/overview/managed_services" style={{'color':'black'}}>MANAGED SERVICES</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/overview/professional_services" style={{'color':'black'}}>PROFESSIONAL SERVICES</Link></NavDropdown.Item>
         </NavDropdown>
         <Nav.Link><ExternalLink href="https://usm.channelonline.com/aohwv/storesite/Products/all?standard=true">STORE</ExternalLink></Nav.Link>        
         <Nav.Link><Link to="/blog">BLOG</Link></Nav.Link>
-        <Nav.Link><Link to="/resources">CONTACT US</Link></Nav.Link>
+        <Nav.Link><Link to="/contact-us">CONTACT US</Link></Nav.Link>
     </Nav>
   );
 }

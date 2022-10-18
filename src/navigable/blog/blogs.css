@@ -1,11 +1,15 @@
 .blogs {
-    padding: auto;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
 }
 .preview {
     background-color: dark;
     padding: 5%;
     font-family: 'proxima-nova', sans-serif;
     font-size: small;
+    height: 100%;
+    width: 100%;
 }
 .title {
     background-color: black;
@@ -20,11 +24,10 @@
 .cardoutline{
     outline: 1px solid #D8FF97;
     background-color: black;
-    height: 25%
 }
 .blogbuttons {
     width: 100%;
-    height: auto;
+    height: 100%;
     font-family: 'proxima-nova', sans-serif;
 }
 

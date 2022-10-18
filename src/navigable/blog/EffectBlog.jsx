@@ -31,19 +31,19 @@ function EffectBlog() {
     return (
         <Container className="blogs">
             <Row>
-                <Col xs>
+                <Col s style={{height: "100%"}}>
                 <BlogCard 
                     title = 'SMS Phishing Attacks affecting Okta IAM Solution'
                     blurb = 'There has been a slew of SMS phishing attacks recently & SMS/OTP is'
                     content = 'oktaphising'/>
                 </Col>
-                <Col xs>
+                <Col s>
                 <BlogCard
                         title = 'Push the boundary of IGA & HRMS'
                         blurb = 'In HRMS driven provision workflow, HRMS acts the “authoritative source or trust source” for FTE to...'
                         content = 'pushingtheboundry'/>
                 </Col>
-                <Col xs>
+                <Col s>
                 <BlogCard 
                     title = 'Cyber Security Mesh Architecture (CSMA)'
                     blurb = 'Gartner created this approach that makes sense. Putting this into our services...'

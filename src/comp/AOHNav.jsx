@@ -14,7 +14,7 @@ function AOHNav() {
     return (
         <Navbar variant="dark" className="AOHNav">
         <Container className="NavContainer">
-          <Navbar.Brand href="/home">
+          <Navbar.Brand href="/" style={{height: "100%"}}>
             <img src={logo} className="nav-image"/>
           </Navbar.Brand>
           <Links/>

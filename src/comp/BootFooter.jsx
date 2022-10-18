@@ -3,6 +3,7 @@ import { Container, Row, Col} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from './../images/Placeholderlogo.png';
 import { ExternalLink } from "react-external-link";
+import { Icon, List } from 'semantic-ui-react';
 import './BootFoot.css'
 
 export default function BootFooter () {
@@ -32,11 +33,17 @@ export default function BootFooter () {
             </Col>
             <Col className = "foot-col">
                 <h3 className="heading">SOCIAL MEDIA</h3>
-                <ExternalLink href = "https://www.linkedin.com/company/atomic-orbital-hydrogen-wave-vector/?viewAsMember=true">LINKEDIN</ExternalLink>
+                <ExternalLink href = "https://www.linkedin.com/company/atomic-orbital-hydrogen-wave-vector/?viewAsMember=true">
+                    <Icon name = "linkedin" className = "aohgreen"/>
+                </ExternalLink>
                 <br/>
-                <ExternalLink href = "https://www.youtube.com/channel/UCW6PSV0dfDPXXSGCtEAOg_A?app=desktop">YOUTUBE</ExternalLink>
+                <ExternalLink href = "https://www.youtube.com/channel/UCW6PSV0dfDPXXSGCtEAOg_A?app=desktop">
+                    <Icon name = "youtube" className = "aohgreen"/>
+                </ExternalLink>
                 <br />
-                <ExternalLink href = "https://twitter.com/AOHWV">TWITTER</ExternalLink>
+                <ExternalLink href = "https://twitter.com/AOHWV">
+                    <Icon name = "twitter" className = "aohgreen"/>
+                </ExternalLink>
             </Col>
         </Row>
     </Container>

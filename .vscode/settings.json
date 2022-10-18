@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/e0bf1b40-6b75-46e2-bbd9-5783f0b89906/AppServices/subscriptions/e0bf1b40-6b75-46e2-bbd9-5783f0b89906/resourceGroups/AOH/providers/Microsoft.Web/sites/AOHWVWebserver",
+    "appService.deploySubpath": "."
+}

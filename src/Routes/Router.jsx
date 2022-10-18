@@ -8,14 +8,13 @@ import {
   } from "react-router-dom";
 import AOHNav   from '../comp/AOHNav';
 import BootFooter from '../comp/BootFooter';
-import Home     from '../navigable/home/Home';
+import AboutUs     from '../navigable/home/AboutUs';
 import EffectBlog     from '../navigable/blog/EffectBlog';
 import ContactUs   from '../navigable/contact/ContactUs';
-import ManagedServices      from '../navigable/services/managedservices/ManagedServices';
 import ProfessionalServices from '../navigable/services/ProfessionalServices';
 import Services from '../navigable/services/Services';
 import jobListings            from '../navigable/resources/jobListings';
-
+import Home from '../navigable/home/Home';
 import OktaPhishing from '../navigable/blog/blogs/oktaphishing'
 import PushBoundryofIGA from '../navigable/blog/blogs/PushBoundryofIGA'
 import CSMA from '../navigable/blog/blogs/CSMA';
@@ -32,9 +31,9 @@ function RouterComp() {
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path="/home" element={<Home/>}/>
+                <Route exact path="/about-us" element={<AboutUs/>}/>
                 <Route exact path="/contact-us" element={<ContactUs/>}/>
                 <Route exact path="/overview/professional_services" element={<ProfessionalServices/>}/>  
-                <Route exact path="/overview/managed_services" element={<ManagedServices/>}/>
                 <Route exact path="/overview" element={<Services/>}/>
                 <Route exact path="/blog" element={<EffectBlog/>}/>
                 <Route exact path="/job-listing" element={<jobListings/>}/>
