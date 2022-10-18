@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'AOHWVWebserver'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_34B2E2BED2EC43B68C67F97681822EAF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_39687B227050454EA230A54091623367 }}
           package: .
