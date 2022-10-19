@@ -9,7 +9,7 @@ import {
 import AOHNav   from '../comp/AOHNav';
 import BootFooter from '../comp/BootFooter';
 import AboutUs     from '../navigable/home/AboutUs';
-import EffectBlog     from '../navigable/blog/EffectBlog';
+import BlogPreview     from '../navigable/blog/BlogPreview';
 import ContactUs   from '../navigable/contact/ContactUs';
 import ProfessionalServices from '../navigable/services/ProfessionalServices';
 import Services from '../navigable/services/Services';
@@ -35,7 +35,7 @@ function RouterComp() {
                 <Route exact path="/contact-us" element={<ContactUs/>}/>
                 <Route exact path="/overview/professional_services" element={<ProfessionalServices/>}/>  
                 <Route exact path="/overview" element={<Services/>}/>
-                <Route exact path="/blog" element={<EffectBlog/>}/>
+                <Route exact path="/blog" element={<BlogPreview/>}/>
                 <Route exact path="/job-listing" element={<jobListings/>}/>
                 <Route exact path="/blog/oktaphising" element={<OktaPhishing/>}/>
                 <Route exact path="/blog/pushingtheboundry" element={<PushBoundryofIGA/>}/>

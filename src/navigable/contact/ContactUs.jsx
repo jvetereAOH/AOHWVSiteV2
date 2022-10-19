@@ -4,6 +4,7 @@ import { Container, Row, Col} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { ExternalLink } from "react-external-link";
 import { Icon, List } from 'semantic-ui-react';
+import "./ContactUs.css";
 /**
  * Methodology Page
  * @Todo: Outline
@@ -34,6 +35,10 @@ function ContactUs() {
                     <ExternalLink style = {{color: "black"}} href = "https://www.instagram.com/AOH_IAM">
                         <Icon name = "instagram" style = {{color: "black"}}/> Instagram
                     </ExternalLink>
+                </Col>
+                <Col className = "contact-email">
+                    <h3 style={{paddingTop: "25px", color: "white"}}>For More Information</h3>
+                    <a href="mailto:info@aohwv.com">info@aohwv.com</a>
                 </Col>
             </Row>
         </Container>

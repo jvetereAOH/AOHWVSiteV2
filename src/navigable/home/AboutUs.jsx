@@ -15,10 +15,6 @@ export default function AboutUs() {
         Atomic Orbital Hydrogen Wave Vector (AOH) is motivated to provide the best possible service to institutions needing capable brains to improve current identity posture. 
         </p>
 
-        <p>
-        Robert has been in Identity for over 25 years.  He is the principal architect of this practice.  Robert understands complex environments & not afraid to ask difficult questions. 
-        </p>
-
         <h2 className="home-h2">A Security First Approach to Identity</h2>
 
         <p className="home-p">
