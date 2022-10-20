@@ -13,7 +13,7 @@ import BlogPreview     from '../navigable/blog/BlogPreview';
 import ContactUs   from '../navigable/contact/ContactUs';
 import ProfessionalServices from '../navigable/services/ProfessionalServices';
 import Services from '../navigable/services/Services';
-import jobListings            from '../navigable/resources/jobListings';
+import JobListings            from '../navigable/resources/jobListings';
 import Store     from '../navigable/store/Store';
 import Home from '../navigable/home/Home';
 import OktaPhishing from '../navigable/blog/blogs/oktaphishing'
@@ -38,12 +38,12 @@ function RouterComp() {
                 <Route exact path="/overview/professional_services" element={<ProfessionalServices/>}/>  
                 <Route exact path="/overview" element={<Services/>}/>
                 <Route exact path="/blog" element={<BlogPreview/>}/>
-                <Route exact path="/job-listing" element={<jobListings/>}/>
+                <Route exact path="/job-listing" element={<JobListings/>}/>
                 <Route exact path="/blog/oktaphising" element={<OktaPhishing/>}/>
                 <Route exact path="/blog/pushingtheboundry" element={<PushBoundryofIGA/>}/>
                 <Route exact path="/blog/cybersecurity-mesh-architecture" element={<CSMA/>}/>
                 <Route exact path="/blog/rsol" element={<RestoreMsolUser/>}/>
-                <Route exact path='/job_listings' element={<jobListings/>}/>
+                <Route exact path='/job_listings' element={<JobListings/>}/>
             </Routes>
 
             <BootFooter style ={{alignSelf: "flex-end"}}/>

@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 .blogs {
     height: 100%;
     padding: 10px;
-    margin: 10px;
+    margin: 10%;
    
 }
 .preview {

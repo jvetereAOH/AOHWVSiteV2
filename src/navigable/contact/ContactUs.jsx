@@ -37,7 +37,7 @@ function ContactUs() {
                     </ExternalLink>
                 </Col>
                 <Col className = "contact-email">
-                    <h3 style={{paddingTop: "25px", color: "white"}}>For More Information</h3>
+                    <h3 style={{paddingTop: "25px", color: "white"}}>For More Information<br />Reach Out At</h3>
                     <a href="mailto:info@aohwv.com">info@aohwv.com</a>
                 </Col>
             </Row>
