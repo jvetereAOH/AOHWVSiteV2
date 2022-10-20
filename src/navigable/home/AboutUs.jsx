@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Button} from 'react-bootstrap';
 import FootLogo from './FootLogo.jpg';
+import { Link } from "react-router-dom";
 import "./home.css";
 /**
  * Render home page
@@ -29,6 +30,14 @@ export default function AboutUs() {
         </p>
 
         <img className="home-img" src={FootLogo} alt="Image of our founding paratners" />
+
+        <Container style = {{display: "flex", gap: "20px", alignSelf: "center", width: "25%", height: "15%"}}>
+            <h3 style = {{textAlign: "center"}}>Join Us</h3>
+            <Link exact to = "/job_listings">
+                <Button className='detailbut'>View Professional Services</Button>
+            </Link>
+        </Container>
+
     </Container>
     )
 }

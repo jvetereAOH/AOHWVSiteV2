@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 
 /**
@@ -6,8 +6,9 @@ import React from 'react';
  * @Todo: Figure out what we need to support
  * @Todo: Outline
  */
-function Store() {
-
+ class Store extends Component {
+ componentDidMount(){
+    window.location.replace('https://usm.channelonline.com/aohwv/storesite/Products/all?standard=true')
+  }
 }
-
 export default Store;

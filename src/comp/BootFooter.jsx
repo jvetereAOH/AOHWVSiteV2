@@ -46,6 +46,11 @@ export default function BootFooter () {
                 </ExternalLink>
             </Col>
         </Row>
+        <Row className = "foot-row">
+            <a className="text-muted" style = {{alignSelf: "center"}}>
+                © 2008-2022 GLW SPECIALTY  
+            </a>
+        </Row>
     </Container>
     )
 }
