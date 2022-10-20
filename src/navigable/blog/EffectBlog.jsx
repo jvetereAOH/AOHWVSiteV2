@@ -49,6 +49,12 @@ function EffectBlog() {
                     blurb = 'Gartner created this approach that makes sense. Putting this into our services...'
                     content = 'cybersecurity-mesh-architecture'/>
                 </Col>
+                <Col xs = {{span: 12, order: 3}} md={{ span:4, order: 3 }}>
+                <BlogCard 
+                    title = 'Cyber Security Mesh Architecture (CSMA)'
+                    blurb = 'Gartner created this approach that makes sense. Putting this into our services...'
+                    content = 'cybersecurity-mesh-architecture'/>
+                </Col>
             </Row>
         </Container>
     )
