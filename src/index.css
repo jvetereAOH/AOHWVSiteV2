@@ -32,6 +32,7 @@ html, body {
   overflow: hidden;
 }
 #text {
+  color: white !important;
   font-family: 'proxima-nova', sans-serif !important;
 }
 .font {

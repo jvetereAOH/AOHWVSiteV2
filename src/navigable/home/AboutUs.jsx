@@ -31,10 +31,10 @@ export default function AboutUs() {
 
         <img className="home-img" src={FootLogo} alt="Image of our founding paratners" />
 
-        <Container style = {{display: "flex", gap: "20px", alignSelf: "center", width: "25%", height: "15%"}}>
-            <h3 style = {{textAlign: "center"}}>Join Us</h3>
+        <Container style = {{display: "flex", gap: "50px", alignSelf: "center", width: "50%", height: "15%"}}>
+            <h3 style = {{width:"50%"}}>Join Us</h3>
             <Link exact to = "/job_listings">
-                <Button className='detailbut'>View Professional Services</Button>
+                <Button style = {{height: "30%", backgroundColor: "black"}} className='detailbut'>View Open Positions</Button>
             </Link>
         </Container>
 

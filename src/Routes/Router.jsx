@@ -27,7 +27,7 @@ import { Container } from 'react-bootstrap';
  */
 function RouterComp() {
     return (
-        <Router style = {{maxHeight: "100%"}}>
+        <Router style = {{height: "60%"}}>
             <Container style={{display: "flex", position: "absolute", left: "0", right: "0", top: "0", bottom: "0", overflowY: "auto", flexDirection: "column", gap: "1vw", maxWidth: "100%", width: "100%", maxHeight: "auto", height: "100%", padding: "0", alignItems: "center", margin: "0", maxHeight: "100%"}}>
             <AOHNav/>
             <Routes>

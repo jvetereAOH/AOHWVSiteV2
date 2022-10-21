@@ -6,21 +6,28 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    
-    border: rounded;
 }
-.services-compare {
+.ser-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 50%;
+    width: 100%;
+}
+.services-compare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
     height: 100%;
     width: 100%;
     background-color: black;
-    
-    gap: 25%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 3px solid #D8FF97;
+    gap: 5%;
+
 }
 .detail-buttons {
     display: flex;
@@ -34,8 +41,27 @@
     padding-bottom: 10px;
     font-family: 'proxima-nova', sans-serif;
 }
+.comparel {
+    margin: 15%;
+    height: 100%;
+    width: 100%;
+}
+.item-pad {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 .detailbut {
     background-color: black;
+    color: black;
+    align-self: center;
+}
+.lcontent {
+    color: white; 
+    font-size: small;
+}
+.lcontent:hover {
+    color: #D8FF97;
+    transition: 200ms ease-in;
 }
 .red {
     color: red;
