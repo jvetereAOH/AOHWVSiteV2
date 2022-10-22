@@ -16,8 +16,16 @@
     align-items: center;
     height: 55px;
     width: 250px;
-    gap: 25px;
+    gap: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'proxima-nova', sans-serif;
 }
+.btn-black {
+    background: black;
+    color: #D8FF97;
+    border: 2px solid #D8FF97;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }

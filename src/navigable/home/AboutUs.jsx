@@ -34,7 +34,7 @@ export default function AboutUs() {
         <Container style = {{display: "flex", gap: "50px", alignSelf: "center", width: "50%", height: "15%"}}>
             <h3 style = {{width:"50%"}}>Join Us</h3>
             <Link exact to = "/job_listings">
-                <Button style = {{height: "60%", width: "100%", backgroundColor: "black"}} className='detailbut'>View Open Positions</Button>
+                <Button variant="black" >View Open Positions</Button>
             </Link>
         </Container>
 
