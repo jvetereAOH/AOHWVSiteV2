@@ -21,6 +21,7 @@ import PushBoundryofIGA from '../navigable/blog/blogs/PushBoundryofIGA'
 import CSMA from '../navigable/blog/blogs/CSMA';
 import RestoreMsolUser from '../navigable/blog/blogs/Restore-MsolUser';
 import { Container } from 'react-bootstrap';
+import HealthCheck from '../navigable/services/HealthCheck';
 /**
  * Router Component
  * @returns Router embedded in Nav bar
@@ -44,6 +45,7 @@ function RouterComp() {
                 <Route exact path="/blog/cybersecurity-mesh-architecture" element={<CSMA/>}/>
                 <Route exact path="/blog/rsol" element={<RestoreMsolUser/>}/>
                 <Route exact path='/job_listings' element={<JobListings/>}/>
+                <Route exact path="/overview/healthcheck" element={<HealthCheck/>}/>
             </Routes>
 
             <BootFooter style ={{alignSelf: "flex-end"}}/>
