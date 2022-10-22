@@ -37,7 +37,7 @@ function ProfessionalServices() {
       <Container className="services-compare">
         <Container className = "ser-row">
                 <Container style={{display: "flex", flexDirection: "column", width: "50%", height: "100%", margin: "20px"}}>
-                <h3 style={{color: "#D8FF97"}}>IGA</h3>
+                <h3 style={{color: "#D8FF97", padding: "10px"}}>IGA</h3>
                 
                 <List className='comparel'>
                     {IGA.map((service, index) => 
@@ -49,7 +49,7 @@ function ProfessionalServices() {
                 </List>
                 </Container>
                 <Container style={{display: "flex", flexDirection: "column", width: "50%", height: "100%", margin: "20px"}}>
-                <h3 style={{color: "#D8FF97"}}>IAM</h3>
+                <h3 style={{color: "#D8FF97", padding: "10px"}}>IAM</h3>
                 
                 <List className='comparel'>
                     {IAM.map((service, index) => 
@@ -63,7 +63,7 @@ function ProfessionalServices() {
               </Container>
         <Container className="ser-row">
           <Container style={{display: "flex", flexDirection: "column", width: "50%", height: "100%", margin: "20px"}}>
-          <h3 style={{color: "#D8FF97"}}>ITDR</h3>
+          <h3 style={{color: "#D8FF97", padding: "10px"}}>ITDR</h3>
           
           <List className='comparel'>
               {ITDR.map((service, index) => 

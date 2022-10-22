@@ -11,7 +11,7 @@ export default function Services() {
     return (
           <Container className="services">
             
-            <img src = {ServicesImage} style={{  gap: "0", height: "100%", width:"100%"}}/>
+            <img src = {ServicesImage} style={{  gap: "0", height: "90%", width:"90%"}}/>
             <h2 style = {{fontFamily: "'proxima-nova', sans-serif"}}>This is our playground.  Let’s get started.</h2>
             <Link to = "professional_services">
                     <Button className='detailbut' style = {{fontFamily: "'proxima-nova', sans-serif"}}>View Professional Services</Button>
