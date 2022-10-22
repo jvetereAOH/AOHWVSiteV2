@@ -1,7 +1,6 @@
 import { Container } from 'react-bootstrap';
 import { Icon, List } from 'semantic-ui-react';
 import "./Services.css"
-import logo from './../../images/Placeholderlogo.png';
 function ProfessionalServices() {
     const IGA = [
       "Analysis, requirement and solution design",

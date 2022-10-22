@@ -29,7 +29,7 @@ export default function AboutUs() {
         Good service matters.  We provide that.  
         </p>
 
-        <img className="home-img" src={FootLogo} alt="Image of our founding paratners" />
+        <img className="home-img" src={FootLogo} alt="AOH WV Complexity simplified" />
 
         <Container style = {{display: "flex", gap: "50px", alignSelf: "center", width: "50%", height: "15%"}}>
             <h3 style = {{width:"50%"}}>Join Us</h3>

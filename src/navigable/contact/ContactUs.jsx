@@ -1,9 +1,8 @@
 import React from 'react';
 
 import { Container, Row, Col} from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { ExternalLink } from "react-external-link";
-import { Icon, List } from 'semantic-ui-react';
+import { Icon } from 'semantic-ui-react';
 import "./ContactUs.css";
 /**
  * Methodology Page

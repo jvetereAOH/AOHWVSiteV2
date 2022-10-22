@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import axios from 'axios';
-import ReactDOM from 'react-dom/client';
+import React, {  } from "react";
 import BlogCard from './Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
