@@ -4,7 +4,7 @@ import './jobs.css';
 
 export default function ESE() {
     return (
-        <Container className = 'font' style={{display: 'flex', flexDirection: 'column', margin: "5%"}}>
+        <Container className = 'font' style={{display: 'flex', flexDirection: 'column', margin: "5%", padding: "5%"}}>
             <h3 style={{fontWeight: 'bold'}}>Enterprise Sale Executive</h3>
             <br />
             <p className = "font">

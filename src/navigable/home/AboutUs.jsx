@@ -20,7 +20,6 @@ export default function AboutUs() {
 
         <p className="home-p">
         Our approach to building and delivering a service, team and ultimate security best posture for clients is a phased approach.  
-        Everything especially identity is difficult with multiple interconnected systems, politics, and people.   
         </p>
 
         <h2 className="home-h2">The AOH Difference</h2>

@@ -22,6 +22,7 @@ import CSMA from '../navigable/blog/blogs/CSMA';
 import RestoreMsolUser from '../navigable/blog/blogs/Restore-MsolUser';
 import { Container } from 'react-bootstrap';
 import HealthCheck from '../navigable/services/HealthCheck';
+import EffectBlog from '../navigable/blog/EffectBlog';
 /**
  * Router Component
  * @returns Router embedded in Nav bar
@@ -38,12 +39,12 @@ function RouterComp() {
                 <Route exact path="/contact-us" element={<ContactUs/>}/>
                 <Route exact path="/overview/professional_services" element={<ProfessionalServices/>}/>  
                 <Route exact path="/overview" element={<Services/>}/>
-                <Route exact path="/blog" element={<BlogPreview/>}/>
+                <Route exact path="/blog" element={<EffectBlog/>}/>
                 <Route exact path="/job-listing" element={<JobListings/>}/>
                 <Route exact path="/blog/oktaphising" element={<OktaPhishing/>}/>
                 <Route exact path="/blog/pushingtheboundry" element={<PushBoundryofIGA/>}/>
                 <Route exact path="/blog/cybersecurity-mesh-architecture" element={<CSMA/>}/>
-                <Route exact path="/blog/rsol" element={<RestoreMsolUser/>}/>
+                <Route exact path="/blog/Restore-MsolUser" element={<RestoreMsolUser/>}/>
                 <Route exact path='/job_listings' element={<JobListings/>}/>
                 <Route exact path="/overview/healthcheck" element={<HealthCheck/>}/>
             </Routes>

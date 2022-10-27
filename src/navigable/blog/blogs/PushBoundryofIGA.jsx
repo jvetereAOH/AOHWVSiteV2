@@ -32,6 +32,7 @@ export default function PushBoundryofIGA() {
                 <p>
                 This was inspired by the vision of one of our clients in healthcare. 
                 </p>
+                <a className="text-muted">By Laura Hees</a>
             </Container>
         </div>
         )

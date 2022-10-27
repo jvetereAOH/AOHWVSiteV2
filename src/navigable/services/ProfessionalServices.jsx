@@ -30,7 +30,7 @@ function ProfessionalServices() {
       "Security (FW) management",
       "Performance management",
       "Out-of-band-listen & gather",
-      "Inline –actively protect",
+      "Inline–actively protect",
       "Custom report"
     ]
     return (

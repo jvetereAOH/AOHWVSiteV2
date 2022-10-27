@@ -27,6 +27,7 @@ function OktaPhishing() {
             <ExternalLink className="bloglink" href = "https://lnkd.in/eu5iktQR">Okta Help: About MFA</ExternalLink>
             <br />
             <ExternalLink className="bloglink" href = "https://lnkd.in/ey3Js9x3">Okta Help: Change sign-on logo</ExternalLink>
+            <a className="text-muted">By Laura Hees</a>
         </Container>
     </div>
     )

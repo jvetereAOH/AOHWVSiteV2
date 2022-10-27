@@ -36,6 +36,7 @@ export default function CSMA() {
 
             <p className="text-muted">Here you go! Full complete, happy mesh!</p>
             <img className="img-mesh roundedborder" src={csma6} alt="Entire solution in one diagram" />
+            <a className="text-muted">By Laura Hees</a>
         </Container>
     </div>
     )

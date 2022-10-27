@@ -1,13 +1,26 @@
 .homepage {
+    display: flex;
+    flex-direction: column;
     padding-top: 2.5%;
     font-family: 'proxima-nova', sans-serif;
+    gap: 1.4rem;
 }
-
+.home-h2 {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
 .home-img {
     max-width: 45%;
     max-height: 45%;
     margin: 0 auto;
     display: block;
+}
+.home-p {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
 }
 .detailbut {
     display: flex;
@@ -23,9 +36,16 @@
 }
 .btn-black {
     background: black;
-    color: #D8FF97;
+    color: white;
     border: 2px solid #D8FF97;
     border-radius: 3px;
     padding: 5px 10px;
     text-transform: uppercase;
+  }
+  .btn-black:hover {
+    background: black;
+    color: #D8FF97;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 5px 10px;
   }
