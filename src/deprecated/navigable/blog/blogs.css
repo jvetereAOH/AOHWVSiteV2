@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+.blogs {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+    width: auto;
+    
+   
+}
+.preview {
+    background-color: dark;
+    padding: 15px;
+    margin: 10px;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: small;
+
+    height: 100%;
+    width: 50%;
+}
+.title {
+    background-color: black;
+    padding: 2.5%;
+    color: #D8FF97;
+}
+.blurb {
+    background-color: black;
+    padding: 5%;
+    color: #D8FF97;
+}
+.cardoutline{
+    outline: 1px solid #D8FF97;
+    background-color: black;
+}
+.blogbuttons {
+    width: 100%;
+    height: 100%;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.blogcontent {
+    font-family: 'proxima-nova', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 12px;
+}
+.bloglink {
+    color: black;
+    text-decoration: none;
+}
+.Blog {
+    padding-top: 25px;
+}
+.blogtitle {
+    padding-bottom: 10px;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.img-mesh {
+    width: 45%;
+    height: 45%;
+    margin-bottom: 10px;
+
+}
+.graphbound {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 1rem;
+}
+.roundedborder {
+    border-radius: 25px;
+    border: 3px solid #D8FF97;
+}
+a {
+    font-family: 'proxima-nova', sans-serif;
+}
