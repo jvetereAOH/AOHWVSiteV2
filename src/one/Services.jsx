@@ -42,7 +42,7 @@ export default class Services extends Component {
     return (
         <Container  className='services'>
             
-            <img src = {ServicesImage} style={{  gap: "0", height: "80%", width:"80%", alignSelf: "center", padding: "0", margin: "0"}} alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
+            <img src = {ServicesImage} style={{  gap: "0", height: "80%", width:"80%", alignSelf: "center", padding: "0"}} alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
             
         
             <Container className = "back2">

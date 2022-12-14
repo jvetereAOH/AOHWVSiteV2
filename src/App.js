@@ -24,7 +24,7 @@ function App() {
       <div id="home" style={{height: "100%", width: "100%", backgroundColor: "black"}}>
         <Home />
       </div>
-      <div id="about_page" style={{height: "100%", width: "100%"}}>
+      <div id="about_page" style={{height: "100%", width: "100%", marginBottom: "2vw"}}>
         <AboutUs style={{width: "100%"}}/>
       </div>
       <div id="services">
