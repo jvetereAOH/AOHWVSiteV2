@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+.blogs {
+    display: flex;
+    flex-direction: column;
+    height: 40vw;
+    width: 100%;
+    gap:5vw;
+    margin-bottom: 10vw
+   
+}
+
+.preview {
+    background-color: dark;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: small;
+    height: 30vw;
+    width: 30%;
+}
+.title {
+    background-color: #576a6e;
+    padding: 2.5%;
+    height: 10vw;
+    color: white;
+    font-size: 2vw
+}
+.blurb {
+    font-family: 'proxima-nova', sans-serif;
+    padding: 1.5vw;
+    height: 7.5vw;
+    max-width: 100%;
+    color: white;
+    font-size: 1.1vw;
+    font-weight: lighter;
+}
+.cardoutline{
+  
+    background-color: #576a6e;
+    display: flex;
+    flex-direction: column;
+}
+.blogbuttons {
+    width: 100%;
+    height: 10%;
+    padding: .5vw;
+    align-self: flex-end;
+    background-color: #343B2A;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 1.1vw;
+    font-weight: lighter;
+}
+
+.blogcontent {
+    font-family: 'proxima-nova', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.bloglink {
+    color: black;
+    text-decoration: none;
+}
+.Blog {
+    padding-top: 25px;
+}
+.blogtitle {
+    padding-bottom: 1.25vw;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+
+}
+.img-mesh {
+    width: 45%;
+    height: 45%;
+    margin-bottom: 10px;
+
+}
+.graphbound {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 1rem;
+}
+.roundedborder {
+    border-radius: 25px;
+    border: 3px solid #D8FF97;
+}
+a {
+    font-family: 'proxima-nova', sans-serif;
+}
