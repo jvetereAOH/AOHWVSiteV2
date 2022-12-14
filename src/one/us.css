@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     width: 100% !important;
     max-width: 100%;
+    height: auto;
     
     padding: 80px 20px;
 }
@@ -13,9 +14,11 @@
     flex-direction: column;
     max-width: 100%;
     padding: 0;
+    padding-bottom: 5vw;
+    margin: 0;
     width: 100% !important;
     background-color: #576a6e;
-    
+    gap: 10vw;
 }
 .services  {
 
@@ -29,26 +32,35 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.service-image {
-    max-width: 1075px;
-    max-height: 900px;
+.service-image-left {
+    max-width: 55vw;
+    max-height: 55vw;
     width: 50%;
     height: auto;
-    margin-left: -75px;
+    margin: 0;
+    padding: 0;
+}
+.service-image-right {
+    max-width: 55vw;
+    max-height: 55vw;
+    width: 50%;
+    height: auto;
+    padding: 0;
+    margin: 0;
 }
 .service-list {
     max-width: 270px;
     
 }
 .service-title {
-    font-size: 30px;
+    font-size: 2.25vw;
     font-weight: bold;
     color: #ffffff;
-    margin: 50px;
-    margin-bottom: 125px;
+    margin: 5vw 0 0 10vw;
+    
 }
 h2 {
-    font-size: larger;
+    font-size: 2.5vw;
     font-weight: bold;
     color: #d8ff97;
     margin: 0;
@@ -67,7 +79,7 @@ h1 {
 }
 
 p {
-    font-size: smaller;
+    font-size: 1.25vw;
     font-weight: bold;
     color: white;
     margin: 0;

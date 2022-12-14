@@ -10,15 +10,15 @@ function BlogCard(prop) {
     console.log(prop);
     return (
         <div className='preview'>
-            <Card className="cardoutline" style={{ width:'18rem' }}>
-                <Card.Img variant="top" src={defaultimg}></Card.Img>
+            <Card className="cardoutline">
+                <Card.Img variant="top" src={prop.image}></Card.Img>
                 <Card.Title className='title'>
                     {prop.title}
                 </Card.Title>
                 <Card.Text className='blurb'>
                     {prop.blurb}...
                 </Card.Text>
-                <Link to = {prop.content}><Button className='blogbuttons'>Full Blog</Button></Link>
+                <Button className='blogbuttons'>Full Blog</Button>
             </Card>
     </div>
     )

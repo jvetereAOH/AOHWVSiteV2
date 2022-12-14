@@ -27,7 +27,7 @@
     Nav link color and font
 */
 .nav-link{
-    font-size: smaller;
+    font-size: 1.25vw;
     font-family: 'proxima-nova', sans-serif;
     color: white !important;
 

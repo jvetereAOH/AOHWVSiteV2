@@ -1,11 +1,14 @@
-import React from 'react';
+import {React, Component} from 'react';
 import { Container, Button} from 'react-bootstrap';
 import ServicesImage from '../images/services.jpg';
 import serv1 from '../images/serv1.jpg';
 import serv2 from '../images/serv2.jpg';
+import serv3 from '../images/serv3.jpg';
 
 
-export default function Services() {
+export default class Services extends Component {
+
+    render() {
     const IGA = [
         "Analysis, requirement and solution design",
         "Data analysis and data correlation- authoritative source/HRMS and target systems",
@@ -37,32 +40,47 @@ export default function Services() {
         "Custom report"
       ]
     return (
-        <Container className='services'>
+        <Container  className='services'>
             
-            <img src = {ServicesImage} style={{  gap: "0", height: "90%", width:"90%", alignSelf: "center", padding: "80px 0"}} alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
+            <img src = {ServicesImage} style={{  gap: "0", height: "80%", width:"80%", alignSelf: "center", padding: "0", margin: "0"}} alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
             
         
             <Container className = "back2">
                 <a className='service-title'>SERVICES</a>
-                <Container style = {{ display: "flex", flexDirection: "row", width: "100%", justifyContent: "space-between"}}>
-               
-                <img src = {serv1} className = "service-image" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
-                    <Container style = {{ display: "flex", flexDirection: "column"}}>
-                    <h2>IGA</h2>
-                        {IGA.map((service, index) => 
-                            <p className = "service-list">{service}</p>
-                            
-                        )}
+                <Container style = {{ display: "flex", flexDirection: "row", width: "100%", gap:"15vw", fontSize: "1.25vw", paddingLeft: "0", marginLeft: "0"}}>
+                
+                    <img src = {serv1} className = "service-image-left" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
+                    <Container style = {{ display: "flex", flexDirection: "column", gap: "1.25vw", width: "50%"}}>
+                        <h2>IGA</h2>
+                            {IGA.map((service, index) => 
+                                <p className = "service-list">{service}</p>
+                                
+                            )}
                     </Container>
                 </Container>
-                {/* <Container style = {{ display: "flex", flexDirection: "row", width: "100%", paddingTop: "200px", paddingLeft: "60px", gap: "10px"}}>
-                    <img src = {serv2} className = "service-image" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
-                    <h2>IAM</h2>
-                    {IAM.map((service, index) => 
-                        <p className = "service-list">{service}</p>
-                        
-                    )}
-                </Container> */}
+                <Container style = {{ display: "flex", flexDirection: "row", width: "100%", alignItems: "center", gap:"15vw", fontSize: "1.25vw",  marginRight: "0", paddingRight: "0"}}>
+                
+                    
+                    <Container style = {{ display: "flex", flexDirection: "column", gap: "1.25vw", width: "50%"}}>
+                        <h2>IAM</h2>
+                            {IAM.map((service, index) => 
+                                <p className = "service-list">{service}</p>
+                                
+                            )}
+                    </Container>
+                    <img src = {serv2} className = "service-image-right" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
+                </Container>
+                <Container style = {{ display: "flex", flexDirection: "row", width: "100%", alignItems: "center", gap:"15vw", fontSize: "1.25vw", paddingLeft: "0",  marginLeft: "0"}}>
+                
+                    <img src = {serv3} className = "service-image-left" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
+                    <Container style = {{ display: "flex", flexDirection: "column", gap: "1.25vw", width: "50%"}}>
+                        <h2>ITDR</h2>
+                            {ITDR.map((service, index) => 
+                                <p className = "service-list">{service}</p>
+                                
+                            )}
+                    </Container>
+                </Container>
             </Container>
         
         </Container>
@@ -70,4 +88,5 @@ export default function Services() {
             
         // </Container>
     )
+                            }
 }
