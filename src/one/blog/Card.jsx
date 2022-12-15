@@ -18,7 +18,7 @@ function BlogCard(prop) {
                 <Card.Text className='blurb'>
                     {prop.blurb}...
                 </Card.Text>
-                <Button className='blogbuttons'>Full Blog</Button>
+                <Button bsClass= "custom-button">Full Blog</Button>
             </Card>
     </div>
     )

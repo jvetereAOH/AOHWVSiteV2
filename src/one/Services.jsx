@@ -49,7 +49,7 @@ export default class Services extends Component {
                 <a className='service-title'>SERVICES</a>
                 <Container style = {{ display: "flex", flexDirection: "row", width: "100%", gap:"15vw", fontSize: "1.25vw", paddingLeft: "0", marginLeft: "0"}}>
                 
-                    <img src = {serv1} className = "service-image-left" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
+                    <img src = {serv1} className = "service-image" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
                     <Container style = {{ display: "flex", flexDirection: "column", gap: "1.25vw", width: "50%"}}>
                         <h2>IGA</h2>
                             {IGA.map((service, index) => 
@@ -68,7 +68,7 @@ export default class Services extends Component {
                                 
                             )}
                     </Container>
-                    <img src = {serv2} className = "service-image-right" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
+                    <img src = {serv2} className = "service-image" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
                 </Container>
                 <Container style = {{ display: "flex", flexDirection: "row", width: "100%", alignItems: "center", gap:"15vw", fontSize: "1.25vw", paddingLeft: "0",  marginLeft: "0"}}>
                 

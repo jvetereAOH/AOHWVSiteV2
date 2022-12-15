@@ -21,31 +21,37 @@ function CustomNavbar() {
             </Navbar.Brand>
             <Nav className="justify-content-end" style={{"padding-top":"5%"}}>
             <Nav.Link>
-                <Link activeClass="active" to="home" spy={true} smooth={true} duration={250} containerId="containerElement">
+                <Link className="link" activeClass="active" to="home" spy={true} smooth={true} duration={250} containerId="containerElement">
                     HOME
                 </Link>
             </Nav.Link>
             <Nav.Link>
-                <Link activeClass="active" to="about_page" spy={true} smooth={true} duration={250} containerId="containerElement">
+                <Link className="link" activeClass="active" to="about_page" spy={true} smooth={true} duration={250} containerId="containerElement">
                         ABOUT US
                 </Link>
             </Nav.Link>
             <Nav.Link>
-            <Link activeClass="active" to="services" spy={true} smooth={true} duration={250} containerId="containerElement">
+            <Link className="link" activeClass="active" to="services" spy={true} smooth={true} duration={250} containerId="containerElement">
                     SERVICES
                 </Link>
             </Nav.Link>
            
             <Nav.Link>
-            <Link activeClass="active" to="blog" spy={true} smooth={true} duration={250} containerId="containerElement">
+            <Link className="link" activeClass="active" to="blog" spy={true} smooth={true} duration={250} containerId="containerElement">
                 BLOGS
             </Link>
             </Nav.Link>
-                <Nav.Link>
-                    <Link activeClass="active" to="contact" spy={true} smooth={true} duration={250} containerId="containerElement">
-                        CONTACT US
-                    </Link>
-                </Nav.Link>
+            <Nav.Link>
+                <Link className="link"  activeClass="active" to="store" spy={true} smooth={true} duration={250} containerId="containerElement">
+                    STORE
+                </Link>
+            </Nav.Link>
+            <Nav.Link>
+                <Link className="link" activeClass="active" to="contact" spy={true} smooth={true} duration={250} containerId="containerElement">
+                    CONTACT US
+                </Link>
+            </Nav.Link>
+                
             </Nav>
         </Container>
     </Navbar>

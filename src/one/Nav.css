@@ -18,16 +18,14 @@
     Auto adjust height of image in nav bar
 */
 .nav-image {
-    height: 100%; 
-    width:  100%;
-    min-width: 75%;
-    min-height: 75%;
+    height: 7.5vw; 
+    width:  7.5vw
 }
 /*
     Nav link color and font
 */
 .nav-link{
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     font-family: 'proxima-nova', sans-serif;
     color: white !important;
 

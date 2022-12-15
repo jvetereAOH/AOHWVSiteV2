@@ -64,6 +64,11 @@ export default function Footer () {
             </Link>
             </Nav.Link>
             <Nav.Link>
+                <Link className="link" activeClass="active" to="store" spy={true} smooth={true} duration={250} containerId="containerElement">
+                    STORE
+                </Link>
+                </Nav.Link>
+            <Nav.Link>
                 <Link className="link" activeClass="active" to="contact" spy={true} smooth={true} duration={250} containerId="containerElement">
                     CONTACT US
                 </Link>

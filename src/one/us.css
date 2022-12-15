@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     width: 100% !important;
     max-width: 100%;
-    height: auto;
+    padding-bottom: 2vw;
     
 
 }
@@ -32,7 +32,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.service-image-left {
+.service-image {
     max-width: 55vw;
     max-height: 55vw;
     width: 50%;
@@ -40,14 +40,7 @@
     margin: 0;
     padding: 0;
 }
-.service-image-right {
-    max-width: 55vw;
-    max-height: 55vw;
-    width: 50%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-}
+
 .service-list {
     max-width: 270px;
     
