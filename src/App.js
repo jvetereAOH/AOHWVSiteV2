@@ -1,13 +1,12 @@
 import './App.scss';
 import Container from 'react-bootstrap/Container';
 import CustomNavbar from './one/CustomNavbar';
-import React, { useEffect } from 'react';
+import React from 'react';
 
 
 
 import Home           from './one/Home';
 import AboutUs          from './one/AboutUs';
-import { Link, animateScroll as scroll } from "react-scroll";
 import Services from './one/Services';
 import EffectBlog from './one/blog/EffectBlog';
 import Footer from './one/Footer';
