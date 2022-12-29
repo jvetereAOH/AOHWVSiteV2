@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import './us.css'
+import './aboutUs.css'
 import { Component } from 'react';
 
 export default class AboutUs extends Component {

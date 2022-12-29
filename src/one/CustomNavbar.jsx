@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import React from 'react';
-import './Nav.css';
+import './customNav.css';
 import logo from '../images/Placeholderlogo.png';
 import Nav from 'react-bootstrap/Nav';
 var Scroll = require('react-scroll');
