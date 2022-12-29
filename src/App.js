@@ -19,16 +19,16 @@ import Store from './one/Store';
 function App() {
 
   return (
-    <Container id="containerElement" style={{display: "flex", position: "absolute", left: "0", right: "0", top: "0", bottom: "0", overflowY: "auto", flexDirection: "column",  maxWidth: "100%", width: "100%", maxHeight: "auto", height: "100%", padding: "0", alignItems: "center", margin: "0", maxHeight: "100%"}}>
+    <Container id="containerElement" style={{display: "flex", position: "absolute", gap: "1vw", left: "0", right: "0", top: "0", bottom: "0", overflowY: "auto", flexDirection: "column",  maxWidth: "100%", width: "100%", maxHeight: "auto", height: "100%", padding: "0", alignItems: "center", margin: "0"}}>
       <div id="home" style={{height: "100%", width: "100%", backgroundColor: "black"}}>
         <CustomNavbar />
         <Home />
       </div>
-      <div id="about_page" style={{height: "100%", width: "100%", marginBottom: "2vw"}}>
-        <AboutUs style={{width: "100%"}}/>
+      <div id="about_page" style={{height: "100%", width: "100%"}}>
+        <AboutUs style={{height: "100%",width: "100%"}}/>
       </div>
-      <div id="services">
-      <Services style={{height: "100%", width: "100%"}}/>
+      <div id="services" style = {{padding: "1vw"}}>
+        <Services style={{height: "100%", width: "100%"}}/>
       </div>
       <div id="blog" style={{height: "100%", width: "100%"}}>
         <EffectBlog style={{height: "100%", width: "100%"}}/>

@@ -41,8 +41,8 @@ export default class Services extends Component {
       ]
     return (
         <Container  className='services'>
-            
-            <img src = {ServicesImage} style={{  gap: "0", height: "80%", width:"80%", alignSelf: "center", padding: "0"}} alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
+            <a className='service-title' style = {{color: "#576a6e"}}>OVERVIEW</a>
+            <img src = {ServicesImage} style={{  gap: "0", height: "80%", width:"80%", alignSelf: "center", padding: "1vw"}} alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
             
         
             <Container className = "back2">
@@ -72,7 +72,7 @@ export default class Services extends Component {
                 </Container>
                 <Container style = {{ display: "flex", flexDirection: "row", width: "100%", alignItems: "center", gap:"15vw", fontSize: "1.25vw", paddingLeft: "0",  marginLeft: "0"}}>
                 
-                    <img src = {serv3} className = "service-image-left" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
+                    <img src = {serv3} className = "service-image" alt = "List of supplied services in a graph: IGA -> Access review Prov..."/>
                     <Container style = {{ display: "flex", flexDirection: "column", gap: "1.25vw", width: "50%"}}>
                         <h2>ITDR</h2>
                             {ITDR.map((service, index) => 
@@ -87,6 +87,5 @@ export default class Services extends Component {
         //     {/* <img className="services-icon" src={ServicesImage} alt="Lay out of different services offered by AOH WV"/>
             
         // </Container>
-    )
-                            }
+    )}
 }
